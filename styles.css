@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1em;
+}
+body { 
+  font-size: 16px;
+  color: black;
+ }
+ 
+#middle { 
+  max-width: none;
+  max-height: none;
+  background-color: #F8F9FA;
+  border-radius: 8px;
+  padding: .67em;
+}
+.programoverview {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.programoverview p {
+  display: flex;
+  align-items: center;
+}
+#snapshot {
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-end;
+}
+.syllabutton {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+}
+#ulem,
+#msimbo {
+  display: flex;
+  padding: .67em;
+}
+
+#topsection {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  margin-bottom: 0;
+  display: flex;
+  width: auto;
+  justify-content: flex-end;
+}
+.topheader {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutus {
+  min-width: 20em;
+  max-width: 50em;
+  border-radius: 8px;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.us {
+  display: flex;
+  margin-top: 1em;
+  align-items: flex-start;
+}
+#stats { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  padding: 10px;
+}
+.item {
+  outline: none;
+  border-radius: 5px;
+  margin: 15px;
+  font-size: large;
+  padding: 15px;
+  
+}
+.item:hover {
+  cursor: pointer;
+  background-color: dimgray;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}
+#images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+#footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+  margin-bottom: 0;
+
+}
+.login,
+.register {
+  border-radius: 5px;
+  padding: 15px;
+  color: black;
+  font-size: large;
+  background-color: #F8F9FA;
+  display: inline-flex;
+  margin-top: 2em;
+  margin-right: 10px;
+  margin-left: 10px;
+  outline: none;
+}
+
+@media (max-width: 475px) {
+  body {
+    flex-direction: column;
+  }
+}
