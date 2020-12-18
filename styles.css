@@ -114,6 +114,19 @@ h2 {
   margin-bottom: 0;
 
 }
+
+
+
+
+.williamwatkins,
+.BetzaidaGuzman,
+.deleomotosho,
+.othneiluter {
+  border-radius: 25px;
+  background-color: lightcyan;
+ font-weight: 600px;
+ display: block;
+}
 .login,
 .register {
   border-radius: 5px;
@@ -132,4 +145,10 @@ h2 {
   body {
     flex-direction: column;
   }
+}
+
+.footer-logo{
+  display: flex;
+  justify-self: center;
+  padding: 42px;
 }
